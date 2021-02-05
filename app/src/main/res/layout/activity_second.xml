@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_foreground"
     tools:context=".SecondActivity">
 
     <EditText
@@ -12,6 +13,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="ელ-ფოსტა"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,10 +27,12 @@
         android:id="@+id/inputPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:textColor="#FFF"
         android:hint="პაროლი"
         android:inputType="textPassword"
+        android:textColorHint="#FFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +43,7 @@
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="136dp"
-        android:background="#33546D"
+        android:background="#203F57"
         android:text="რეგისტრაცია"
         android:textColor="#F7EFED"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +51,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputPassword"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintVertical_bias="0.237" />
 
     <TextView
         android:id="@+id/textView3"
@@ -54,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="რეგისტრაცია"
-        android:textColor="#7FA7B8"
+        android:textColor="#FFF"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/inputEmail"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +72,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:background="#33546D"
+        android:background="#203F57"
         android:text="უკან დაბრუნება"
         android:textColor="#F7EFED"
         app:layout_constraintBottom_toBottomOf="parent"
